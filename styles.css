@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.chessman {
+    margin-top: 10px;
+    right: 15px;
+    position: absolute;
+}
+
+.white {
+    background-color: #ECECD1;
+}
+
+.black {
+    background-color: #769556;
+}
+
+.moveable {
+    background-color: #F6CD61;
+}
