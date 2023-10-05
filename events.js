@@ -6,6 +6,10 @@ export function handleDragStart(e) {
     check.chessType(this.src, parseInt(id[0]), parseInt(id[1]));
 }   
 
+export function handleDragEnd(e) {
+    deleteMovableEffect();
+}
+
 export function handleDragOver(e) {
     e.preventDefault();
 }

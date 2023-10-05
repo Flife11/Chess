@@ -50,7 +50,7 @@ function addEventForChessman() {
     chessmans.forEach(chessman => {
         if (parseInt(chessman.parentNode.id)<=17) chessman.draggable = false;
         chessman.addEventListener("dragstart", events.handleDragStart);
-        // chessman.addEventListener("dragleave", events.handleDragLeave);
+        chessman.addEventListener("dragend", events.handleDragEnd);
     });
 }
 
